@@ -1,1 +1,0 @@
-# trabalhando_com_IA
