@@ -7,7 +7,7 @@ mp_hands = mp.solutions.hands
 hands = mp_hands.Hands()
 mp_draw = mp.solutions.drawing_utils # objeto que vai permitir desenhar na tela
 
-capture = cv2.VideoCapture(r'/home/lucca/Documents/Checkpoint2_IA/checkpoint2_IA/sinais_mao.mp4')
+capture = cv2.VideoCapture('sinais_mao.mp4')
 
 while True:
     ret, frame = capture.read()
